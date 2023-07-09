@@ -135,3 +135,132 @@ header {
   margin-bottom: 60px;
   border: 0;
 }
+/* failure section here */
+.failures {
+  display: flex;
+  margin-top: 130px;
+  margin-bottom: 130px;
+  margin-left: 230px;
+  margin-right: 320px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+  height: 70vh;
+}
+.fail-img {
+  width: 450px;
+  padding: 20px;
+}
+.failed-title {
+  padding-right: 120px;
+  padding-bottom: 24px;
+  font-size: 40px;
+  font-weight: 700;
+}
+.failed-text,
+.failed-list {
+  padding-bottom: 16px;
+  color: #444343;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* plans section */
+.plans {
+  width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.box {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box-title {
+  color: #151414;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 16px;
+}
+.box-description {
+  color: #737272;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.mindset {
+  width: 1140px;
+  margin: auto;
+  margin-bottom: 130px;
+  margin-top: 130px;
+}
+.mindset-bg {
+  background-image: url("./images/gradient2.png"), url("./images/watch.png");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat no-repeat;
+  /* padding: 5%; */
+}
+.mindset-title {
+  color: white;
+  font-size: 40px;
+  padding: 60px 600px 24px 60px;
+}
+.secondary-btn {
+  color: #f15b22;
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-left: 60px;
+  margin-bottom: 60px;
+  border: 0;
+}
+/* footer styles here  */
+.footer {
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+.foot-col {
+  padding: 130px;
+  width: 50%;
+}
+.col-2 input {
+  display: block;
+  padding: 15px 40px 15px 15px;
+  border-radius: 5px;
+  background-color: #000000;
+  border: 1px solid white;
+  margin-bottom: 16px;
+  color: white;
+}
+.foot-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+
+.foot-text,
+.foot-phone,
+.foot-email {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 16px;
+}
+
+.foot-btn {
+  color: #f15b22;
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 5px;
+}
